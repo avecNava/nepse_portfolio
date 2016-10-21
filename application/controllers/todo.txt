@@ -1,0 +1,49 @@
+//TO DO : NEPSE Portfolio
+15/5/2016
+
+GENERAL
+1. **Store filter params in session or post form data everytime ?
+2. Line Chart in the nested subtable?
+3. Read tarrifs from db (xms/json) and calculate Effective rate automatically
+4. Register option, register approval by admin or Invitation method.
+5. Automatically populate certain table values when creating new account (ie, register). Eg populating 1-2 Group Info  / Shareholder name
+6. Add/edit shareholder and group names
+7. Watchlist and notification alerts on email
+8. Money management. Records of BT loan and other persnal load against each share
+9 Record for keeping share applications related info ? application_no, amount, application date, tentative opening
+10. DOM manipulation of nepalstock/stocklive and append portfolio data ....MUST HAVE
+11. ** Autocomplete feature in NEPSE Companies
+12. ** Include Company in filter
+13 	** DayGain % infinity for Dividends
+14. * What about tags for transactions?
+15. Mail admin when new companies found during fetchStock??
+
+DASHBOARD
+1. TOP5 shares generative revenue within portfolio
+2. TOP5 shares with losses within portfolio
+3. PIE/BAR chart to show shares and repective amounts
+4. PIE/BAR chart to show longest/shortest held shares
+
+NEPSE DATA db related
+1. Listing page for  NEPSE data / todays' rate
+2. Updating NEPSE data using live feed ? What about MeroLagani live data ? 
+
+
+SALES
+1. Confirm with users which transaction, how many quantity etc to sell shares. 
+Record sales date, expected payment date, calculate gain tax and cash receivables
+2. P/L account
+
+DONE
+16/05/2016 2PM
+1. Cummulative Shares Info , upon drill down list the individual details. 
+** Can show line chart for day to day NEPSE trade data? (LINE CHART not implemented)
+
+16/05/2016 11PM
+1. Comma separation of digits
+2. RED/Green coloring of values
+3. Added footer for nested subtable 
+4. Fixed SQL bug in nested subtable
+
+25/05/2016 8AM
+1. New companies inserted into nepse_company table with Code=NEW (Needs to show the new company in the Dashboard)
